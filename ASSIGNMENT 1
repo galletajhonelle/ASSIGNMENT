@@ -1,0 +1,37 @@
+//C1-A1 Variable/Constants Declaration and String Concatenation Methods.
+
+// Student 1 Information
+let student1FirstName = "Juan";
+let student1MiddleName = "Gamos";
+let student1LastName = "Dela Cruz";
+let student1Birthdate = "January 1, 2001";
+let student1Birthplace = "Upper Bonifacio, Baguio City, Benguet, Philippines 2600";
+let student1Address = "San Nicolas, Candon City, Ilocos Sur, Philippines 2710";
+let student1CourseYear = "Bachelor of Science in Computer Science";
+let student1DreamJob = "Software Engineer";
+
+// Student 2 Information
+let student2FirstName = "Pedro";
+let student2MiddleName = "Dela Cruz";
+let student2LastName = "Santos";
+let student2Birthdate = "February 26, 2002";
+let student2Birthplace = "Paoc Norte,Sta. Lucia,Ilocos Sur, Philippines 2712";
+let student2Address = "Lipa, Batangas City, Batangas, Philippines 4217";
+let student2CourseYear = "Bachelor of Science in Information Technology";
+let student2DreamJob = "Data Scientist";
+
+// Student 3 Information
+let student3FirstName = "Mark";
+let student3MiddleName = "Reyes";
+let student3LastName = "Galicia";
+let student3Birthdate = "March 04, 2000";
+let student3Birthplace = "San Antonio, Makati City, Metro Manila, Philippines 1220";
+let student3Address = "Rosario, Pangasinan, Philippines 2428";
+let student3CourseYear = "Bachelor of Science in Information Systems";
+let student3DreamJob = "Systems Analyst";
+//print student no.1
+console.log("[" + student1FirstName.toUpperCase() + " " + student1MiddleName.toUpperCase() + " " + student1LastName.toUpperCase() + "] was born [" + student1Birthdate + "] at [" + student1Birthplace.toUpperCase() + "], and currently living at [" + student1Address.toUpperCase() + "]. [" + student1FirstName.toLowerCase() + " " + student1MiddleName.toLowerCase() + " " + student1LastName.toLowerCase() + "] is taking up [" + student1CourseYear.toLowerCase() + "] and dreams to be [" + student1DreamJob + "] after graduation.");
+//student no.2
+console.log("[" + student2FirstName.toUpperCase() + " " + student2MiddleName.toUpperCase() + " " + student2LastName.toUpperCase() + "] was born [" + student2Birthdate + "] at [" + student2Birthplace.toUpperCase() + "], and currently living at [" + student2Address.toUpperCase() + "]. [" + student2FirstName.toLowerCase() + " " + student2MiddleName.toLowerCase() + " " + student2LastName.toLowerCase() + "] is taking up [" + student2CourseYear.toLowerCase() + "] and dreams to be [" + student2DreamJob + "] after graduation.");
+//student no.3
+console.log("[" + student3FirstName.toUpperCase() + " " + student3MiddleName.toUpperCase() + " " + student3LastName.toUpperCase() + "] was born [" + student3Birthdate + "] at [" + student3Birthplace.toUpperCase() + "], and currently living at [" + student3Address.toUpperCase() + "]. [" + student3FirstName.toLowerCase() + " " + student3MiddleName.toLowerCase() + " " + student3LastName.toLowerCase() + "] is taking up [" + student3CourseYear.toLowerCase() + "] and dreams to be [" + student3DreamJob + "] after graduation.");
