@@ -1,0 +1,36 @@
+//C1-A2: Mathematical and Comparison Operations, and Type Conversions.
+
+let a=25;
+let b=20;
+let c=12;
+let d="15"; //this is a string
+const e=15
+
+let sum = a + b + c + parseInt(d) + e;
+console.log("Sum:", sum);
+//comparing the value
+let comparisonResults = {
+    greaterThan: parseInt(d) > e,
+    lessThan: parseInt(d) < e,
+    greaterThanOrEqual: parseInt(d) >= e,
+    lessThanOrEqual: parseInt(d) <= e,
+    equalValueAndType: parseInt(d) === e
+};
+console.log("Comparison Results:", comparisonResults);
+
+// 1. Subtract all the values
+let subtraction = a - b - c - parseInt(d);
+console.log("Subtraction:", subtraction);
+
+// 2. Multiply a and c, divided by e
+let multiplicationDivision = (a * c) / e;
+console.log("Multiplication and Division:", multiplicationDivision);
+
+// 3. Exponent value of e raised to the power of c
+let exponentiation = Math.pow(e, c);
+console.log("Exponentiation:", exponentiation);
+
+// 4. Reassign the value of c.3 to constant e and display the result
+// Note: Constants cannot be reassigned, so we use a new variable
+let newE = exponentiation;
+console.log("New value of e:", newE);
